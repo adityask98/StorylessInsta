@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48417E1C2BFDA8640016439D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E1B2BFDA8640016439D /* AppDelegate.swift */; };
+		48417E1E2BFDA8640016439D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E1D2BFDA8640016439D /* SceneDelegate.swift */; };
+		48417E212BFDA8640016439D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48417E202BFDA8640016439D /* Base */; };
+		48417E242BFDA8640016439D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48417E232BFDA8640016439D /* Base */; };
+		48417E2D2BFDA8640016439D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E2C2BFDA8640016439D /* AppDelegate.swift */; };
+		48417E302BFDA8640016439D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48417E2F2BFDA8640016439D /* Base */; };
+		48417E372BFDA8640016439D /* Storyless Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48417E362BFDA8640016439D /* Storyless Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48417E412BFDA8640016439D /* Storyless Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 48417E402BFDA8640016439D /* Storyless Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48417E472BFDA8640016439D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48417E032BFDA8620016439D /* Base */; };
+		48417E482BFDA8640016439D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48417E032BFDA8620016439D /* Base */; };
+		48417E492BFDA8640016439D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48417E042BFDA8620016439D /* Icon.png */; };
+		48417E4A2BFDA8640016439D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 48417E042BFDA8620016439D /* Icon.png */; };
+		48417E4B2BFDA8640016439D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 48417E052BFDA8620016439D /* Style.css */; };
+		48417E4C2BFDA8640016439D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 48417E052BFDA8620016439D /* Style.css */; };
+		48417E4D2BFDA8640016439D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E062BFDA8620016439D /* Script.js */; };
+		48417E4E2BFDA8640016439D /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E062BFDA8620016439D /* Script.js */; };
+		48417E4F2BFDA8640016439D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E072BFDA8620016439D /* ViewController.swift */; };
+		48417E502BFDA8640016439D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E072BFDA8620016439D /* ViewController.swift */; };
+		48417E512BFDA8640016439D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48417E082BFDA8640016439D /* Assets.xcassets */; };
+		48417E522BFDA8640016439D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48417E082BFDA8640016439D /* Assets.xcassets */; };
+		48417E532BFDA8640016439D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E0A2BFDA8640016439D /* SafariWebExtensionHandler.swift */; };
+		48417E542BFDA8640016439D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48417E0A2BFDA8640016439D /* SafariWebExtensionHandler.swift */; };
+		48417E552BFDA8640016439D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0C2BFDA8640016439D /* _locales */; };
+		48417E562BFDA8640016439D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0C2BFDA8640016439D /* _locales */; };
+		48417E572BFDA8640016439D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0D2BFDA8640016439D /* images */; };
+		48417E582BFDA8640016439D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0D2BFDA8640016439D /* images */; };
+		48417E592BFDA8640016439D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0E2BFDA8640016439D /* manifest.json */; };
+		48417E5A2BFDA8640016439D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0E2BFDA8640016439D /* manifest.json */; };
+		48417E5B2BFDA8640016439D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0F2BFDA8640016439D /* background.js */; };
+		48417E5C2BFDA8640016439D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E0F2BFDA8640016439D /* background.js */; };
+		48417E5D2BFDA8640016439D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E102BFDA8640016439D /* content.js */; };
+		48417E5E2BFDA8640016439D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E102BFDA8640016439D /* content.js */; };
+		48417E5F2BFDA8640016439D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 48417E112BFDA8640016439D /* popup.html */; };
+		48417E602BFDA8640016439D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 48417E112BFDA8640016439D /* popup.html */; };
+		48417E612BFDA8640016439D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 48417E122BFDA8640016439D /* popup.css */; };
+		48417E622BFDA8640016439D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 48417E122BFDA8640016439D /* popup.css */; };
+		48417E632BFDA8640016439D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E132BFDA8640016439D /* popup.js */; };
+		48417E642BFDA8640016439D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 48417E132BFDA8640016439D /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48417E382BFDA8640016439D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48417DFC2BFDA8610016439D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48417E352BFDA8640016439D;
+			remoteInfo = "Storyless Extension (iOS)";
+		};
+		48417E422BFDA8640016439D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48417DFC2BFDA8610016439D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48417E3F2BFDA8640016439D;
+			remoteInfo = "Storyless Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48417E6A2BFDA8640016439D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48417E372BFDA8640016439D /* Storyless Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E712BFDA8640016439D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48417E412BFDA8640016439D /* Storyless Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48417E032BFDA8620016439D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		48417E042BFDA8620016439D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		48417E052BFDA8620016439D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		48417E062BFDA8620016439D /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		48417E072BFDA8620016439D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48417E082BFDA8640016439D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48417E0A2BFDA8640016439D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		48417E0C2BFDA8640016439D /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		48417E0D2BFDA8640016439D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		48417E0E2BFDA8640016439D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		48417E0F2BFDA8640016439D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		48417E102BFDA8640016439D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		48417E112BFDA8640016439D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		48417E122BFDA8640016439D /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		48417E132BFDA8640016439D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		48417E182BFDA8640016439D /* Storyless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storyless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48417E1B2BFDA8640016439D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48417E1D2BFDA8640016439D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48417E202BFDA8640016439D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48417E232BFDA8640016439D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48417E252BFDA8640016439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48417E2A2BFDA8640016439D /* Storyless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Storyless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48417E2C2BFDA8640016439D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48417E2F2BFDA8640016439D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48417E312BFDA8640016439D /* Storyless.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Storyless.entitlements; sourceTree = "<group>"; };
+		48417E362BFDA8640016439D /* Storyless Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Storyless Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48417E3B2BFDA8640016439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48417E402BFDA8640016439D /* Storyless Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Storyless Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48417E452BFDA8640016439D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48417E462BFDA8640016439D /* Storyless.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Storyless.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48417E152BFDA8640016439D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E272BFDA8640016439D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E332BFDA8640016439D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E3D2BFDA8640016439D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48417DFB2BFDA8610016439D = {
+			isa = PBXGroup;
+			children = (
+				48417E002BFDA8620016439D /* Shared (App) */,
+				48417E092BFDA8640016439D /* Shared (Extension) */,
+				48417E1A2BFDA8640016439D /* iOS (App) */,
+				48417E2B2BFDA8640016439D /* macOS (App) */,
+				48417E3A2BFDA8640016439D /* iOS (Extension) */,
+				48417E442BFDA8640016439D /* macOS (Extension) */,
+				48417E192BFDA8640016439D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48417E002BFDA8620016439D /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				48417E072BFDA8620016439D /* ViewController.swift */,
+				48417E082BFDA8640016439D /* Assets.xcassets */,
+				48417E012BFDA8620016439D /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		48417E012BFDA8620016439D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48417E022BFDA8620016439D /* Main.html */,
+				48417E042BFDA8620016439D /* Icon.png */,
+				48417E052BFDA8620016439D /* Style.css */,
+				48417E062BFDA8620016439D /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48417E092BFDA8640016439D /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				48417E0A2BFDA8640016439D /* SafariWebExtensionHandler.swift */,
+				48417E0B2BFDA8640016439D /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		48417E0B2BFDA8640016439D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48417E0C2BFDA8640016439D /* _locales */,
+				48417E0D2BFDA8640016439D /* images */,
+				48417E0E2BFDA8640016439D /* manifest.json */,
+				48417E0F2BFDA8640016439D /* background.js */,
+				48417E102BFDA8640016439D /* content.js */,
+				48417E112BFDA8640016439D /* popup.html */,
+				48417E122BFDA8640016439D /* popup.css */,
+				48417E132BFDA8640016439D /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		48417E192BFDA8640016439D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48417E182BFDA8640016439D /* Storyless.app */,
+				48417E2A2BFDA8640016439D /* Storyless.app */,
+				48417E362BFDA8640016439D /* Storyless Extension.appex */,
+				48417E402BFDA8640016439D /* Storyless Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48417E1A2BFDA8640016439D /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				48417E1B2BFDA8640016439D /* AppDelegate.swift */,
+				48417E1D2BFDA8640016439D /* SceneDelegate.swift */,
+				48417E1F2BFDA8640016439D /* LaunchScreen.storyboard */,
+				48417E222BFDA8640016439D /* Main.storyboard */,
+				48417E252BFDA8640016439D /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		48417E2B2BFDA8640016439D /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				48417E2C2BFDA8640016439D /* AppDelegate.swift */,
+				48417E2E2BFDA8640016439D /* Main.storyboard */,
+				48417E312BFDA8640016439D /* Storyless.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		48417E3A2BFDA8640016439D /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				48417E3B2BFDA8640016439D /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		48417E442BFDA8640016439D /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				48417E452BFDA8640016439D /* Info.plist */,
+				48417E462BFDA8640016439D /* Storyless.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48417E172BFDA8640016439D /* Storyless (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48417E6B2BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless (iOS)" */;
+			buildPhases = (
+				48417E142BFDA8640016439D /* Sources */,
+				48417E152BFDA8640016439D /* Frameworks */,
+				48417E162BFDA8640016439D /* Resources */,
+				48417E6A2BFDA8640016439D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48417E392BFDA8640016439D /* PBXTargetDependency */,
+			);
+			name = "Storyless (iOS)";
+			productName = "Storyless (iOS)";
+			productReference = 48417E182BFDA8640016439D /* Storyless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48417E292BFDA8640016439D /* Storyless (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48417E722BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless (macOS)" */;
+			buildPhases = (
+				48417E262BFDA8640016439D /* Sources */,
+				48417E272BFDA8640016439D /* Frameworks */,
+				48417E282BFDA8640016439D /* Resources */,
+				48417E712BFDA8640016439D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48417E432BFDA8640016439D /* PBXTargetDependency */,
+			);
+			name = "Storyless (macOS)";
+			productName = "Storyless (macOS)";
+			productReference = 48417E2A2BFDA8640016439D /* Storyless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48417E352BFDA8640016439D /* Storyless Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48417E672BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless Extension (iOS)" */;
+			buildPhases = (
+				48417E322BFDA8640016439D /* Sources */,
+				48417E332BFDA8640016439D /* Frameworks */,
+				48417E342BFDA8640016439D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storyless Extension (iOS)";
+			productName = "Storyless Extension (iOS)";
+			productReference = 48417E362BFDA8640016439D /* Storyless Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		48417E3F2BFDA8640016439D /* Storyless Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48417E6E2BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless Extension (macOS)" */;
+			buildPhases = (
+				48417E3C2BFDA8640016439D /* Sources */,
+				48417E3D2BFDA8640016439D /* Frameworks */,
+				48417E3E2BFDA8640016439D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Storyless Extension (macOS)";
+			productName = "Storyless Extension (macOS)";
+			productReference = 48417E402BFDA8640016439D /* Storyless Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48417DFC2BFDA8610016439D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					48417E172BFDA8640016439D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					48417E292BFDA8640016439D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					48417E352BFDA8640016439D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					48417E3F2BFDA8640016439D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 48417DFF2BFDA8610016439D /* Build configuration list for PBXProject "Storyless" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48417DFB2BFDA8610016439D;
+			productRefGroup = 48417E192BFDA8640016439D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48417E172BFDA8640016439D /* Storyless (iOS) */,
+				48417E292BFDA8640016439D /* Storyless (macOS) */,
+				48417E352BFDA8640016439D /* Storyless Extension (iOS) */,
+				48417E3F2BFDA8640016439D /* Storyless Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48417E162BFDA8640016439D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E492BFDA8640016439D /* Icon.png in Resources */,
+				48417E212BFDA8640016439D /* Base in Resources */,
+				48417E472BFDA8640016439D /* Base in Resources */,
+				48417E4D2BFDA8640016439D /* Script.js in Resources */,
+				48417E512BFDA8640016439D /* Assets.xcassets in Resources */,
+				48417E242BFDA8640016439D /* Base in Resources */,
+				48417E4B2BFDA8640016439D /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E282BFDA8640016439D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E4A2BFDA8640016439D /* Icon.png in Resources */,
+				48417E4C2BFDA8640016439D /* Style.css in Resources */,
+				48417E302BFDA8640016439D /* Base in Resources */,
+				48417E4E2BFDA8640016439D /* Script.js in Resources */,
+				48417E522BFDA8640016439D /* Assets.xcassets in Resources */,
+				48417E482BFDA8640016439D /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E342BFDA8640016439D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E5B2BFDA8640016439D /* background.js in Resources */,
+				48417E612BFDA8640016439D /* popup.css in Resources */,
+				48417E5F2BFDA8640016439D /* popup.html in Resources */,
+				48417E572BFDA8640016439D /* images in Resources */,
+				48417E592BFDA8640016439D /* manifest.json in Resources */,
+				48417E552BFDA8640016439D /* _locales in Resources */,
+				48417E5D2BFDA8640016439D /* content.js in Resources */,
+				48417E632BFDA8640016439D /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E3E2BFDA8640016439D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E5C2BFDA8640016439D /* background.js in Resources */,
+				48417E622BFDA8640016439D /* popup.css in Resources */,
+				48417E602BFDA8640016439D /* popup.html in Resources */,
+				48417E582BFDA8640016439D /* images in Resources */,
+				48417E5A2BFDA8640016439D /* manifest.json in Resources */,
+				48417E562BFDA8640016439D /* _locales in Resources */,
+				48417E5E2BFDA8640016439D /* content.js in Resources */,
+				48417E642BFDA8640016439D /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48417E142BFDA8640016439D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E4F2BFDA8640016439D /* ViewController.swift in Sources */,
+				48417E1C2BFDA8640016439D /* AppDelegate.swift in Sources */,
+				48417E1E2BFDA8640016439D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E262BFDA8640016439D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E502BFDA8640016439D /* ViewController.swift in Sources */,
+				48417E2D2BFDA8640016439D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E322BFDA8640016439D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E532BFDA8640016439D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48417E3C2BFDA8640016439D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48417E542BFDA8640016439D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48417E392BFDA8640016439D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48417E352BFDA8640016439D /* Storyless Extension (iOS) */;
+			targetProxy = 48417E382BFDA8640016439D /* PBXContainerItemProxy */;
+		};
+		48417E432BFDA8640016439D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48417E3F2BFDA8640016439D /* Storyless Extension (macOS) */;
+			targetProxy = 48417E422BFDA8640016439D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48417E022BFDA8620016439D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48417E032BFDA8620016439D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		48417E1F2BFDA8640016439D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48417E202BFDA8640016439D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		48417E222BFDA8640016439D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48417E232BFDA8640016439D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48417E2E2BFDA8640016439D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48417E2F2BFDA8640016439D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48417E652BFDA8640016439D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48417E662BFDA8640016439D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		48417E682BFDA8640016439D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Storyless Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless.Extension;
+				PRODUCT_NAME = "Storyless Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48417E692BFDA8640016439D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Storyless Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless.Extension;
+				PRODUCT_NAME = "Storyless Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48417E6C2BFDA8640016439D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Storyless;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless;
+				PRODUCT_NAME = Storyless;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48417E6D2BFDA8640016439D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Storyless;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless;
+				PRODUCT_NAME = Storyless;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48417E6F2BFDA8640016439D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Storyless.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Storyless Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless.Extension;
+				PRODUCT_NAME = "Storyless Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48417E702BFDA8640016439D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Storyless.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Storyless Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless.Extension;
+				PRODUCT_NAME = "Storyless Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		48417E732BFDA8640016439D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Storyless.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Storyless;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless;
+				PRODUCT_NAME = Storyless;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		48417E742BFDA8640016439D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Storyless.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZW8JS4V3UN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Storyless;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseguy.Storyless;
+				PRODUCT_NAME = Storyless;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48417DFF2BFDA8610016439D /* Build configuration list for PBXProject "Storyless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48417E652BFDA8640016439D /* Debug */,
+				48417E662BFDA8640016439D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48417E672BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48417E682BFDA8640016439D /* Debug */,
+				48417E692BFDA8640016439D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48417E6B2BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48417E6C2BFDA8640016439D /* Debug */,
+				48417E6D2BFDA8640016439D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48417E6E2BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48417E6F2BFDA8640016439D /* Debug */,
+				48417E702BFDA8640016439D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48417E722BFDA8640016439D /* Build configuration list for PBXNativeTarget "Storyless (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48417E732BFDA8640016439D /* Debug */,
+				48417E742BFDA8640016439D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48417DFC2BFDA8610016439D /* Project object */;
+}
